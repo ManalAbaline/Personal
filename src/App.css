@@ -1,0 +1,55 @@
+.header-style{
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.grid-style{
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.img-style{
+    height: 300px;
+}
+.banner-style{
+    background-color: black;
+    opacity: 0.7;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.banner-style h1{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 0.25em;
+}
+.banner-style hr{
+    border-bottom: white double 0.5em;
+    width: 50%;
+    margin : auto;
+}
+.banner-style p{
+    font-size: 3em;
+    padding: 1em;
+}
+
+.reseaux-sociaux{
+    display: flex;
+    justify-content : space-between;
+    width: 50%;
+    margin: auto;
+
+}
+
+.reseaux-sociaux a{
+    color: white;
+    padding-bottom: 1em;
+    font-size: 5em;
+
+
+
+}
