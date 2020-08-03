@@ -49,7 +49,35 @@
     color: white;
     padding-bottom: 1em;
     font-size: 5em;
+}
 
+.contact-body{
+    margin:auto;
+    width: 100%;
+    height: 100%;
+    background: grey;
+    position:fixed;
+}
 
+.contact-grid{
+    margin:auto;
+    width: 80%;
+    background: white;
+    color: black;
+    text-align: center;
+}
 
+.contact-grid h2{
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    padding-top: 1em;
+    font-family: 'Oxygen Mono' , monospace;
+}
+
+.contact-grid hr{
+    border-top: 0.8em dotted black;
+    margin: auto;
+    width: 50%;
 }
