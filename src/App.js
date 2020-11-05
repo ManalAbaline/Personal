@@ -7,6 +7,10 @@ import {Link} from 'react-router-dom';
 
 
 function App() {
+
+    console.log("This App.js file");
+    console.log("This is for the second commit");
+    console.log("This is for the third commit");
   return (
     <div>
     <Layout>
