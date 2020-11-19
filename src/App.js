@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
     <Layout>
-        <Header className="header-style" transparent title="Title" style={{color: 'white'}}>
+        <Header className="header-style" transparent title="Welcome to Manal's Official Website" style={{color: 'white'}}>
             <Navigation>
                 <Link to="cv">CV</Link>
                 <Link to="projets">Projects</Link>
@@ -34,6 +34,7 @@ function App() {
             <Main />
         </Content>
         </Layout>
+        
 </div>
   );
 }
