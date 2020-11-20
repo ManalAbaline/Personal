@@ -1,5 +1,4 @@
 import React from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 class Contact extends React.Component {
 
@@ -25,7 +24,7 @@ class Contact extends React.Component {
     shouldComponentUpdate(nextProps, nexthState) {
 
 
-        if (this.props != nextProps){
+        if (this.props !== nextProps){
             return false;
         }
         return false;
