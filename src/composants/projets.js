@@ -91,15 +91,15 @@ class Projets extends React.Component {
             )
         }else if (this.state.activeTab ===1){
             return(
-                <div><h1>C'est mon projet Java</h1></div>
+                <div><h1>Java project description</h1></div>
             )
         }else if (this.state.activeTab===2){
             return(
-                <div><h1> C'est mon projet C/C++</h1></div>
+                <div><h1>C/C++ project description</h1></div>
             )
         }else {
             return(
-                <div><h1> C'est mon projet VHDL</h1></div>
+                <div><h1> VHDL project description</h1></div>
             )
         }
     }

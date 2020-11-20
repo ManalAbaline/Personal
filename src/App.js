@@ -7,10 +7,14 @@ import {Link} from 'react-router-dom';
 
 
 function App() {
+
+    console.log("This App.js file");
+    console.log("This is for the second commit");
+    console.log("This is for the third commit");
   return (
     <div>
     <Layout>
-        <Header className="header-style" transparent title="Title" style={{color: 'white'}}>
+        <Header className="header-style" transparent title="Welcome to Manal's Official Website" style={{color: 'white'}}>
             <Navigation>
                 <Link to="cv">CV</Link>
                 <Link to="projets">Projects</Link>
@@ -30,6 +34,7 @@ function App() {
             <Main />
         </Content>
         </Layout>
+        
 </div>
   );
 }
